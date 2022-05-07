@@ -13,6 +13,9 @@ export default {
     link: {
       type: "string",
     },
+     excerpt: {
+      type: "string",
+    },
     collectionid: {
       type: "string",
     },
@@ -35,6 +38,7 @@ export default {
       },
       data: {
         link,
+        excerpt,
         collection: {
           $id: collectionid,
         },
